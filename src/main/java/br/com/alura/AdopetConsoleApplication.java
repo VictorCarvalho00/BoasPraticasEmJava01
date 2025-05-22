@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class AdopetConsoleApplication {
     public static void main(String[] args) {
+
         ClientHttpConfiguration client =  new ClientHttpConfiguration();
         AbrigoService abrigoService = new AbrigoService(client);
         PetService petService = new PetService(client);
